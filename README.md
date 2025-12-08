@@ -1,16 +1,6 @@
-That's great\! Your technical structure is completely sound.
-
-Here is the final, corrected $\texttt{README.md}$ text, which uses proper markdown formatting for clear readability on GitHub and ensures all file names and paths are accurately described, resolving the visual issues from your previous attempts.
-
------
-
 # Comparative Analysis of Regression Algorithms for House Price Prediction
 
 This repository contains the complete implementation, analysis, and results for a capstone project focused on predicting housing prices using the Ames Housing Dataset. The project compares traditional machine learning baselines against modern ensemble and neural network techniques to determine the optimal predictive model.
-
-## Project Objective
-
-The primary goal was to implement and evaluate five distinct machine learning models—three baselines and two research-based advanced models—to establish which architecture provides the best prediction accuracy ($R^2$ and RMSE) on a real-world, highly featured dataset.
 
 ## Repository Structure
 
@@ -53,15 +43,6 @@ The project execution is organized into distinct phases using six notebooks and 
 4.  **Final Comparison ($\texttt{compare\_models.ipynb}$):**
       * Loads all JSON metric files to generate the final comparison tables and visual plots (e.g., Figures 1 and 2 in the report).
 
-## Key Findings
-
-The results confirmed the superiority of the advanced ensemble methods, achieving the lowest prediction error on the raw, non-transformed $\texttt{SalePrice}$ data (See Table I in the full report):
-
-| Model | RMSE (Lower is Better) | $R^2$ Score (Higher is Better) |
-| :--- | :--- | :--- |
-| **Stacked Regression** | **16,423.38** | **0.9152** |
-| XGBoost | 17,438.13 | 0.9044 |
-| MLP (Neural Network) | 19,153.17 | 0.8847 |
 
 ## Getting Started
 
