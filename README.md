@@ -1,9 +1,3 @@
-I see the issue. The main problem is that when you copied the GitHub link, the markdown structure for the code block was broken by the link formatting. Also, you correctly want to include **Seaborn** in the dependencies list.
-
-Here is the fully corrected and clean $\texttt{README.md}$ text, fixing the broken link/code block issue and ensuring all technical details (like Seaborn) are included.
-
------
-
 # Comparative Analysis of Regression Algorithms for House Price Prediction
 
 This repository contains the complete implementation, analysis, and results for a capstone project focused on predicting housing prices using the Ames Housing Dataset. The project compares traditional machine learning baselines against modern ensemble and neural network techniques to determine the optimal predictive model.
