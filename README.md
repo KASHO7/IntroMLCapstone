@@ -1,7 +1,7 @@
 
 ---
 
-## 📂 Folder Descriptions
+## Folder Descriptions
 
 | Folder | Purpose |
 |--------|--------|
